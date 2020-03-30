@@ -2,8 +2,8 @@
 An operating system for Raspberry Pi 3, built from scratch.
 
 
-A very low level project, which includes comminucations with the hardware itself of the Raspberry Pi.
-The project includes a lot of parts essential for the operating system to work, including proccesor initialization,
+A very "low level" project, which includes comminucations with the hardware itself of the Raspberry Pi.
+The project is written in C and AArch64 Assembly and includes a lot of parts essential for the operating system to work, including proccesor initialization,
 kernel initialization, memory initialization, a filesystem, a frame buffer, etc.
 
 The project is not finished yet and some parts like a keyboard driver are missing, but they will be added soon.
